@@ -1,4 +1,4 @@
-# Authentication Security Testing Checklist
+# Authentication Checklist
 
 > A practical checklist for assessing authentication and identity-management security during authorized penetration tests, bug bounty programs, CTFs, and security assessments.
 
