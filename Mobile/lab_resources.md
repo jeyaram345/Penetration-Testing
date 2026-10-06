@@ -1,8 +1,8 @@
 # 📱 Mobile Security Labs
 
-A collection of **Android mobile application security labs, vulnerable applications, crackmes, and CTF challenges** for practicing mobile application penetration testing and reverse engineering.
+A collection of **Android mobile application security labs, vulnerable applications, CTFs, crackmes, and hands-on practice resources** for learning Mobile Application Penetration Testing.
 
-The labs cover areas such as:
+These labs are useful for practicing:
 
 * 🔍 Static Analysis
 * 🐞 Dynamic Analysis
@@ -17,18 +17,20 @@ The labs cover areas such as:
 * ⚙️ Android IPC & Intent Security
 * 🧬 Reverse Engineering
 * 📦 APK Analysis
+* 🧠 Native Library Analysis
+* 🚩 CTF & Flag-Based Challenges
 
 ---
 
-## 🧪 Practice Labs
+# 🧪 Practice Labs
 
-### 1. Mobile Hacking Lab
+## 1. Mobile Hacking Lab
 
 🔗 https://www.mobilehackinglab.com/
 
-A hands-on platform focused specifically on **mobile application security** and practical exploitation.
+A hands-on platform focused on **mobile application security testing and Android exploitation**.
 
-**Practice areas:**
+### Practice Areas
 
 * Android application security
 * Static analysis
@@ -36,26 +38,21 @@ A hands-on platform focused specifically on **mobile application security** and 
 * Frida
 * Reverse engineering
 * Authentication & authorization
+* API security
 * Native code analysis
 * Runtime manipulation
+* SSL pinning
+* Root detection
 
 ---
 
-### 2. OWASP MAS Crackmes / UnCrackable Apps
+## 2. OWASP MAS Crackmes / UnCrackable Apps
 
 🔗 https://mas.owasp.org/crackmes/Android/
 
-OWASP MAS Crackmes are intentionally vulnerable **mobile reverse-engineering challenges** used alongside the OWASP Mobile Application Security Testing Guide (MASTG).
+OWASP MAS Crackmes provide intentionally vulnerable Android applications and reverse-engineering challenges for practicing mobile security testing.
 
-**Challenges:**
-
-* Android UnCrackable L1
-* Android UnCrackable L2
-* Android UnCrackable L3
-* Android UnCrackable L4
-* Android License Validator
-
-**Focus:**
+### Practice Areas
 
 * 🔍 Reverse Engineering
 * 🪝 Frida
@@ -64,140 +61,206 @@ OWASP MAS Crackmes are intentionally vulnerable **mobile reverse-engineering cha
 * 🧬 Native Code
 * 🛠️ Ghidra
 * ⚙️ Runtime Analysis
+* 🔓 Authentication Bypass
+
+### Challenges
+
+* Android UnCrackable L1
+* Android UnCrackable L2
+* Android UnCrackable L3
+* Android UnCrackable L4
+* Android License Validator
 
 ---
 
-### 3. InjuredAndroid
+## 3. InjuredAndroid
 
-An intentionally vulnerable Android application designed for practicing **Android application penetration testing**.
+An intentionally vulnerable Android application created for practicing **Android application penetration testing**.
 
-**Practice areas:**
+### Practice Areas
 
-* Insecure storage
-* Exported components
+* Insecure Data Storage
+* Exported Components
 * Activities
 * Services
 * Broadcast Receivers
 * Content Providers
 * Deep Links
-* Intent vulnerabilities
-* Authentication issues
-* WebView security
-* Runtime analysis
+* Intent Security
+* Authentication
+* Authorization
+* WebView Security
+* Runtime Analysis
+* API Testing
 
 ---
 
-### 4. DIVA — Damn Insecure and Vulnerable App
+## 4. DIVA — Damn Insecure and Vulnerable App
 
 🔗 https://github.com/payatu/diva-android
 
-DIVA is an intentionally insecure Android application containing multiple security challenges. OWASP currently lists DIVA as a reference application for mobile security training.
+DIVA is an intentionally vulnerable Android application designed for learning common Android security weaknesses.
 
-**Practice areas:**
+### Practice Areas
 
-* Insecure logging
-* Hardcoded secrets
-* Insecure data storage
-* Input validation
+* Insecure Logging
+* Hardcoded Secrets
+* Insecure Data Storage
+* Input Validation
 * Authentication
 * Authorization
 * Cryptography
-* Android components
+* Android Components
 * WebViews
-* Network security
+* Network Security
 
 ---
 
-### 5. InsecureBankv2
+## 5. InsecureBankv2
 
 🔗 https://github.com/dineshshetty/Android-InsecureBankv2
 
-A deliberately vulnerable Android banking application created for learning Android security testing. It is also listed by OWASP MAS as a reference application.
+An intentionally vulnerable Android banking application for practicing **mobile application and API security testing**.
 
-**Practice areas:**
+### Practice Areas
 
 * Authentication
 * Authorization
-* Insecure storage
-* SQL injection
-* Exported components
-* Intent vulnerabilities
-* WebView
-* Runtime manipulation
-* API security
-* Burp Suite testing
+* Insecure Storage
+* SQL Injection
+* Exported Components
+* Intent Vulnerabilities
+* WebView Security
+* Runtime Manipulation
+* API Security
+* Burp Suite Testing
 
 ---
 
-### 6. AllSafe
+## 6. AllSafe
 
-A vulnerable Android application designed for practicing **modern Android security testing techniques**.
+An intentionally vulnerable Android application useful for practicing **modern Android security testing techniques**.
 
-**Practice areas:**
+### Practice Areas
 
-* Static analysis
-* Dynamic analysis
-* API security
+* Static Analysis
+* Dynamic Analysis
+* API Security
 * Authentication
 * Authorization
 * Deep Links
-* Exported components
+* Exported Components
 * WebViews
-* Insecure storage
+* Insecure Storage
 * SSL/TLS
-* Root detection
+* Root Detection
 * Frida
+* Runtime Instrumentation
 
 ---
 
-### 7. CyberTalents — Mobile Security
+## 7. EVABS — Extremely Vulnerable Android Labs
+
+🔗 https://github.com/abhi-r3v0/EVABS
+
+**EVABS (Extremely Vulnerable Android Labs)** is an intentionally vulnerable Android application designed as a learning platform for Android application security beginners. It also includes CTF-style flag challenges.
+
+### Practice Areas
+
+* 🔍 Static Analysis
+* 🐞 Dynamic Analysis
+* 🔐 Authentication
+* 💾 Insecure Storage
+* 🔗 Android Components
+* 🧩 Intent Security
+* 🔑 Cryptography
+* 🪝 Frida
+* 🧬 Reverse Engineering
+* 🚩 CTF / Flag Challenges
+* 📦 APK Analysis
+
+### Recommended Tools
+
+* ADB
+* Frida
+* Apktool
+* JADX
+* dex2jar
+* Android Studio
+
+---
+
+## 8. Android4 — VulnHub
+
+🔗 https://www.vulnhub.com/entry/android4_1,233/
+
+**Android4** is a vulnerable Android-based machine available through VulnHub and can be used for practicing Android security assessment and exploitation in a controlled lab environment.
+
+### Practice Areas
+
+* Android Enumeration
+* Network Enumeration
+* Service Discovery
+* Android Security
+* Exploitation
+* Privilege Escalation
+* Reverse Engineering
+* CTF-Style Challenges
+
+> ⚠️ Run VulnHub machines only inside an isolated and authorized lab environment.
+
+---
+
+## 9. CyberTalents — Mobile Security
 
 🔗 https://cybertalents.com/
 
-Mobile security challenges and CTF-style exercises for developing practical **Android security and reverse-engineering skills**.
+CyberTalents provides **CTF-style cybersecurity challenges**, including mobile security and Android-related challenges.
 
-**Practice areas:**
+### Practice Areas
 
-* APK analysis
-* Reverse engineering
-* Authentication bypass
-* Data extraction
-* Android internals
+* APK Analysis
+* Reverse Engineering
+* Authentication Bypass
+* Data Extraction
+* Android Internals
 * Cryptography
-* Static analysis
-* Dynamic analysis
-* CTF-based exploitation
+* Static Analysis
+* Dynamic Analysis
+* CTF Challenges
 
 ---
 
-## 🛠️ Recommended Toolset
+# 🛠️ Recommended Mobile Pentesting Tools
 
 | Tool               | Purpose                            |
 | ------------------ | ---------------------------------- |
 | **ADB**            | Android Debug Bridge               |
-| **JADX**           | Java/Kotlin decompilation          |
+| **JADX**           | APK/DEX decompilation              |
 | **Apktool**        | APK decoding & rebuilding          |
 | **MobSF**          | Automated mobile security analysis |
-| **Burp Suite**     | API & network interception         |
+| **Burp Suite**     | HTTP/HTTPS & API testing           |
 | **Frida**          | Dynamic instrumentation            |
 | **Objection**      | Runtime mobile security testing    |
 | **Ghidra**         | Native binary reverse engineering  |
+| **dex2jar**        | DEX → JAR conversion               |
 | **adb shell**      | Android system interaction         |
 | **Android Studio** | Emulator & application analysis    |
 
 ---
 
-## 🎯 Suggested Learning Progression
+# 🎯 Recommended Learning Path
 
-### 🟢 Beginner
+## 🟢 Beginner
 
 Start with:
 
-1. DIVA
-2. InjuredAndroid
-3. InsecureBankv2
+1. **DIVA**
+2. **InjuredAndroid**
+3. **InsecureBankv2**
+4. **EVABS**
 
-Focus on understanding:
+Focus on:
 
 * APK structure
 * AndroidManifest.xml
@@ -209,14 +272,17 @@ Focus on understanding:
 * SQLite
 * Logcat
 * ADB
+* Basic static analysis
 
-### 🟡 Intermediate
+---
+
+## 🟡 Intermediate
 
 Move to:
 
-4. AllSafe
-5. Mobile Hacking Lab
-6. CyberTalents Mobile Security
+5. **AllSafe**
+6. **Mobile Hacking Lab**
+7. **CyberTalents Mobile Security**
 
 Focus on:
 
@@ -224,80 +290,158 @@ Focus on:
 * API testing
 * Deep Links
 * WebViews
-* SSL pinning
-* Root detection
+* SSL Pinning
+* Root Detection
 * Frida
 * Objection
-* Runtime manipulation
-
-### 🔴 Advanced
-
-Practice:
-
-7. OWASP MAS Crackmes
-8. UnCrackable L1 → L4
-
-Focus on:
-
-* Reverse engineering
-* Anti-debugging
-* Anti-tampering
-* Native libraries
-* JNI
-* Ghidra
-* Frida hooks
-* Cryptographic analysis
-* Binary patching
+* Runtime Manipulation
+* Android Components
 
 ---
 
-## 📚 Standards & Methodology
+## 🔴 Advanced
 
-For structured mobile penetration testing, use the **OWASP Mobile Application Security (MAS)** project:
+Practice:
+
+8. **OWASP MAS Crackmes**
+9. **UnCrackable Series**
+10. **Android4 / VulnHub**
+
+Focus on:
+
+* Reverse Engineering
+* Anti-Debugging
+* Anti-Tampering
+* Native Libraries
+* JNI
+* Ghidra
+* Frida Hooks
+* Cryptographic Analysis
+* Binary Patching
+* Exploitation
+
+---
+
+# 📚 Methodology & Standards
+
+For a structured approach to mobile application security testing:
+
+### OWASP Mobile Application Security
 
 🔗 https://mas.owasp.org/
 
-The project provides:
+Study:
 
 * **MASVS** — Mobile Application Security Verification Standard
 * **MASWE** — Mobile Application Security Weakness Enumeration
 * **MASTG** — Mobile Application Security Testing Guide
 
-These provide a useful methodology for conducting consistent mobile application security assessments.
+Use these standards to map vulnerabilities discovered during your lab exercises to industry-recognized security requirements.
 
 ---
 
-## 📋 My Practice Checklist
+# 📋 Mobile Pentesting Practice Checklist
 
-* [ ] APK Information & Manifest Analysis
-* [ ] Static Analysis
-* [ ] Dynamic Analysis
-* [ ] Authentication Testing
-* [ ] Authorization Testing
+### 🔍 Reconnaissance & Static Analysis
+
+* [ ] APK Information
+* [ ] Package Name
+* [ ] AndroidManifest.xml
+* [ ] Permissions
+* [ ] Exported Components
+* [ ] Activities
+* [ ] Services
+* [ ] Broadcast Receivers
+* [ ] Content Providers
+* [ ] Hardcoded Secrets
+* [ ] API Endpoints
+* [ ] Debuggable Configuration
+* [ ] Backup Configuration
+
+### 🔐 Authentication & Authorization
+
+* [ ] Authentication Bypass
+* [ ] Authorization Bypass
+* [ ] Broken Access Control
 * [ ] Session Management
-* [ ] Insecure Data Storage
-* [ ] Cryptography
-* [ ] Network Security
+* [ ] Password Policy
+* [ ] Account Enumeration
+* [ ] Token Handling
+* [ ] Logout Validation
+
+### 💾 Data Storage
+
+* [ ] SharedPreferences
+* [ ] SQLite Databases
+* [ ] Internal Storage
+* [ ] External Storage
+* [ ] Cache
+* [ ] Logs
+* [ ] Clipboard
+* [ ] Sensitive Data Exposure
+* [ ] Encryption at Rest
+
+### 🌐 Network Security
+
+* [ ] HTTP/HTTPS
+* [ ] TLS Configuration
+* [ ] Certificate Validation
 * [ ] SSL Pinning
+* [ ] API Security
+* [ ] Request Manipulation
+* [ ] Response Manipulation
+* [ ] Authentication Tokens
+
+### 🔗 Android Components
+
+* [ ] Exported Activities
+* [ ] Exported Services
+* [ ] Exported Receivers
+* [ ] Exported Content Providers
+* [ ] Intent Injection
+* [ ] Intent Redirection
+* [ ] Deep Links
+* [ ] App Links
+* [ ] URI Handling
+
+### 🧩 WebView
+
+* [ ] JavaScript Enabled
+* [ ] JavaScript Interfaces
+* [ ] Unsafe URL Loading
+* [ ] File Access
+* [ ] Universal Access
+* [ ] URL Validation
+* [ ] WebView Injection
+
+### 🪝 Runtime & Reverse Engineering
+
+* [ ] Frida
+* [ ] Objection
 * [ ] Root Detection
 * [ ] Anti-Debugging
-* [ ] Deep Links
-* [ ] Exported Components
-* [ ] Intent Security
-* [ ] Content Providers
-* [ ] Broadcast Receivers
-* [ ] Services
-* [ ] WebViews
-* [ ] API Security
-* [ ] Hardcoded Secrets
-* [ ] Logging
-* [ ] Backup & Debuggable Configuration
-* [ ] Frida Instrumentation
+* [ ] Anti-Frida
+* [ ] SSL Pinning Bypass
+* [ ] Runtime Hooking
 * [ ] Native Library Analysis
-* [ ] Reverse Engineering
-* [ ] Tampering & Repackaging
-* [ ] OWASP MASVS/MASTG Mapping
+* [ ] JNI Analysis
+* [ ] Ghidra
+* [ ] Binary Patching
+* [ ] Repackaging
 
 ---
 
-> **Goal:** Build practical Android penetration-testing skills through vulnerable applications, CTFs, reverse-engineering challenges, and hands-on security research.
+# 📂 Additional Mobile Pentesting Resources
+
+For an additional collection of vulnerable applications, tools, scripts, and mobile penetration-testing resources:
+
+🔗 **Mobile-PT — Applications**
+https://github.com/SNGWN/Mobile-PT/tree/master/Applications
+
+The repository's `Applications/` directory contains sample vulnerable applications for mobile security testing, including DIVA, InsecureBankv2, UnCrackable challenges, GoatDroid and other testing applications.
+
+---
+
+> **Goal:** Build practical Android penetration-testing skills through vulnerable applications, CTF challenges, reverse-engineering exercises, runtime instrumentation, and systematic security testing using OWASP MASVS/MASTG.
+
+> ⚠️ **Disclaimer:** Use these applications and labs only for educational purposes and authorized security testing. Never test systems or applications without permission.
